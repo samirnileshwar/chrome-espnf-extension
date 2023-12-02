@@ -1,1 +1,12 @@
-
+{
+    "name": "ESPN Fantasy Sports Extension",
+    "description": "Develops roster based projections for fantasy basketball leagues",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://fantasy.espn.com/basketball/boxscore*"],
+            "js": ["content.js"]
+        }
+    ]
+  }
