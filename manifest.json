@@ -8,5 +8,8 @@
             "matches": ["https://fantasy.espn.com/basketball/boxscore*"],
             "js": ["content.js"]
         }
+    ],
+    "permissions": [
+        "cookies"
     ]
   }
