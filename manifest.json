@@ -11,5 +11,12 @@
     ],
     "permissions": [
         "cookies"
-    ]
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "host_permissions": [
+        "https://fantasy.espn.com/"
+      ]
   }
